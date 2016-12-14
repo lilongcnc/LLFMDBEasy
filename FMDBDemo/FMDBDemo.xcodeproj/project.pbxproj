@@ -27,6 +27,7 @@
 		89780E6E1E01769B00ABF3C6 /* HomeRecommendInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 89780E6D1E01769B00ABF3C6 /* HomeRecommendInfo.m */; };
 		89780E711E01824900ABF3C6 /* HomeScrollADInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 89780E701E01824900ABF3C6 /* HomeScrollADInfo.m */; };
 		89780E741E01826000ABF3C6 /* HomeCommonADInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 89780E731E01826000ABF3C6 /* HomeCommonADInfo.m */; };
+		89780E781E01A0AE00ABF3C6 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 89780E771E01A0AE00ABF3C6 /* 10.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		89780E721E01826000ABF3C6 /* HomeCommonADInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCommonADInfo.h; sourceTree = "<group>"; };
 		89780E731E01826000ABF3C6 /* HomeCommonADInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCommonADInfo.m; sourceTree = "<group>"; };
 		89780E761E0185F800ABF3C6 /* ILSingletom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSingletom.h; sourceTree = "<group>"; };
+		89780E771E01A0AE00ABF3C6 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		89780E1B1E016BAA00ABF3C6 /* FMDBDemo */ = {
 			isa = PBXGroup;
 			children = (
+				89780E771E01A0AE00ABF3C6 /* 10.png */,
 				89780E761E0185F800ABF3C6 /* ILSingletom.h */,
 				89780E751E01826400ABF3C6 /* Model */,
 				89780E651E0172CA00ABF3C6 /* FMDBManager */,
@@ -340,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89780E781E01A0AE00ABF3C6 /* 10.png in Resources */,
 				89780E611E01727800ABF3C6 /* Info.plist in Resources */,
 				89780E2C1E016BAA00ABF3C6 /* LaunchScreen.storyboard in Resources */,
 				89780E291E016BAA00ABF3C6 /* Assets.xcassets in Resources */,

@@ -13,6 +13,7 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *showImageView;
 
 @end
 
@@ -44,18 +45,12 @@
   
 }
 
-
-
 - (IBAction)del:(id)sender {
-    
     [[ZYHTfmdb_RecommendDealTool sharedInstance] deleteAll];
 }
 
-
-
 - (IBAction)modify:(id)sender {
 //    [[ZYHTfmdb_RecommendDealTool sharedInstance] modify];
-
 
 }
 
@@ -66,10 +61,29 @@
     for (HomeRecommendInfo *info in data) {
         NSLog(@"query: name:%@ age:%@ ",info.name,info.age);
     }
-
 }
 
 
+#pragma mark ================ 图片部分 ================
+
+- (IBAction)img_add:(id)sender {
+
+    
+    
+}
+
+- (IBAction)img_del:(id)sender {
+}
+
+- (IBAction)img_modify:(id)sender {
+    //    [[ZYHTfmdb_RecommendDealTool sharedInstance] modify];
+    
+}
+
+- (IBAction)img_query:(id)sender {
+    
+
+}
 
 
 @end
