@@ -6,18 +6,18 @@
 //  Copyright © 2016年 李龙. All rights reserved.
 //
 
-#import "ZYHTfmdbHomeScrollADDealTool.h"
+#import "ZYHTfmdb_HomeScrollADDealTool.h"
 #import "ZYHTfmdbHomeScrollADHelper.h"
 #import "HomeScrollADInfo.h"
 
 
-@interface ZYHTfmdbHomeScrollADDealTool ()
+@interface ZYHTfmdb_HomeScrollADDealTool ()
 
 @property (nonatomic, copy) NSString * dbPath;
 
 @end
 
-@implementation ZYHTfmdbHomeScrollADDealTool
+@implementation ZYHTfmdb_HomeScrollADDealTool
 ILSingleton_M
 
 

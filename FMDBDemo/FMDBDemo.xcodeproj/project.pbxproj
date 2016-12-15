@@ -22,14 +22,16 @@
 		89780E601E01727800ABF3C6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 89780E5A1E01727800ABF3C6 /* FMResultSet.m */; };
 		89780E611E01727800ABF3C6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89780E5B1E01727800ABF3C6 /* Info.plist */; };
 		89780E641E01728400ABF3C6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 89780E631E01728400ABF3C6 /* libsqlite3.tbd */; };
-		89780E681E01734800ABF3C6 /* ZYHTfmdbHomeRecommendInfoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 89780E671E01734800ABF3C6 /* ZYHTfmdbHomeRecommendInfoHelper.m */; };
-		89780E6B1E01740F00ABF3C6 /* ZYHTfmdb_RecommendDealTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 89780E6A1E01740F00ABF3C6 /* ZYHTfmdb_RecommendDealTool.m */; };
-		89780E6E1E01769B00ABF3C6 /* HomeRecommendInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 89780E6D1E01769B00ABF3C6 /* HomeRecommendInfo.m */; };
-		89780E711E01824900ABF3C6 /* HomeScrollADInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 89780E701E01824900ABF3C6 /* HomeScrollADInfo.m */; };
-		89780E741E01826000ABF3C6 /* HomeCommonADInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 89780E731E01826000ABF3C6 /* HomeCommonADInfo.m */; };
 		89780E781E01A0AE00ABF3C6 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 89780E771E01A0AE00ABF3C6 /* 10.png */; };
-		8996FC711E02373700952DF5 /* ZYHTfmdbHomeScrollADHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC701E02373700952DF5 /* ZYHTfmdbHomeScrollADHelper.m */; };
-		8996FC741E02374C00952DF5 /* ZYHTfmdbHomeScrollADDealTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC731E02374C00952DF5 /* ZYHTfmdbHomeScrollADDealTool.m */; };
+		8996FC881E02406700952DF5 /* ZYHTfmdb_RecommendDealTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC791E02406700952DF5 /* ZYHTfmdb_RecommendDealTool.m */; };
+		8996FC891E02406700952DF5 /* ZYHTfmdbHomeRecommendInfoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC7B1E02406700952DF5 /* ZYHTfmdbHomeRecommendInfoHelper.m */; };
+		8996FC8A1E02406700952DF5 /* ZYHTfmdb_HomeScrollADDealTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC7E1E02406700952DF5 /* ZYHTfmdb_HomeScrollADDealTool.m */; };
+		8996FC8B1E02406700952DF5 /* ZYHTfmdbHomeScrollADHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC801E02406700952DF5 /* ZYHTfmdbHomeScrollADHelper.m */; };
+		8996FC8C1E02406700952DF5 /* HomeCommonADInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC831E02406700952DF5 /* HomeCommonADInfo.m */; };
+		8996FC8D1E02406700952DF5 /* HomeRecommendInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC851E02406700952DF5 /* HomeRecommendInfo.m */; };
+		8996FC8E1E02406700952DF5 /* HomeScrollADInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC871E02406700952DF5 /* HomeScrollADInfo.m */; };
+		8996FC911E0242BA00952DF5 /* ZYHTfmdb_CommonADDealTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC901E0242BA00952DF5 /* ZYHTfmdb_CommonADDealTool.m */; };
+		8996FC971E0242FD00952DF5 /* ZYHTfmdb_CommonADHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC961E0242FD00952DF5 /* ZYHTfmdb_CommonADHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,22 +81,26 @@
 		89780E5A1E01727800ABF3C6 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		89780E5B1E01727800ABF3C6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89780E631E01728400ABF3C6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		89780E661E01734800ABF3C6 /* ZYHTfmdbHomeRecommendInfoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTfmdbHomeRecommendInfoHelper.h; sourceTree = "<group>"; };
-		89780E671E01734800ABF3C6 /* ZYHTfmdbHomeRecommendInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHTfmdbHomeRecommendInfoHelper.m; sourceTree = "<group>"; };
-		89780E691E01740F00ABF3C6 /* ZYHTfmdb_RecommendDealTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTfmdb_RecommendDealTool.h; sourceTree = "<group>"; };
-		89780E6A1E01740F00ABF3C6 /* ZYHTfmdb_RecommendDealTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHTfmdb_RecommendDealTool.m; sourceTree = "<group>"; };
-		89780E6C1E01769B00ABF3C6 /* HomeRecommendInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeRecommendInfo.h; sourceTree = "<group>"; };
-		89780E6D1E01769B00ABF3C6 /* HomeRecommendInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeRecommendInfo.m; sourceTree = "<group>"; };
-		89780E6F1E01824900ABF3C6 /* HomeScrollADInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScrollADInfo.h; sourceTree = "<group>"; };
-		89780E701E01824900ABF3C6 /* HomeScrollADInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScrollADInfo.m; sourceTree = "<group>"; };
-		89780E721E01826000ABF3C6 /* HomeCommonADInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCommonADInfo.h; sourceTree = "<group>"; };
-		89780E731E01826000ABF3C6 /* HomeCommonADInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCommonADInfo.m; sourceTree = "<group>"; };
 		89780E761E0185F800ABF3C6 /* ILSingletom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSingletom.h; sourceTree = "<group>"; };
 		89780E771E01A0AE00ABF3C6 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
-		8996FC6F1E02373700952DF5 /* ZYHTfmdbHomeScrollADHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTfmdbHomeScrollADHelper.h; sourceTree = "<group>"; };
-		8996FC701E02373700952DF5 /* ZYHTfmdbHomeScrollADHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHTfmdbHomeScrollADHelper.m; sourceTree = "<group>"; };
-		8996FC721E02374C00952DF5 /* ZYHTfmdbHomeScrollADDealTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTfmdbHomeScrollADDealTool.h; sourceTree = "<group>"; };
-		8996FC731E02374C00952DF5 /* ZYHTfmdbHomeScrollADDealTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHTfmdbHomeScrollADDealTool.m; sourceTree = "<group>"; };
+		8996FC781E02406700952DF5 /* ZYHTfmdb_RecommendDealTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTfmdb_RecommendDealTool.h; sourceTree = "<group>"; };
+		8996FC791E02406700952DF5 /* ZYHTfmdb_RecommendDealTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHTfmdb_RecommendDealTool.m; sourceTree = "<group>"; };
+		8996FC7A1E02406700952DF5 /* ZYHTfmdbHomeRecommendInfoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTfmdbHomeRecommendInfoHelper.h; sourceTree = "<group>"; };
+		8996FC7B1E02406700952DF5 /* ZYHTfmdbHomeRecommendInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHTfmdbHomeRecommendInfoHelper.m; sourceTree = "<group>"; };
+		8996FC7D1E02406700952DF5 /* ZYHTfmdb_HomeScrollADDealTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTfmdb_HomeScrollADDealTool.h; sourceTree = "<group>"; };
+		8996FC7E1E02406700952DF5 /* ZYHTfmdb_HomeScrollADDealTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHTfmdb_HomeScrollADDealTool.m; sourceTree = "<group>"; };
+		8996FC7F1E02406700952DF5 /* ZYHTfmdbHomeScrollADHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTfmdbHomeScrollADHelper.h; sourceTree = "<group>"; };
+		8996FC801E02406700952DF5 /* ZYHTfmdbHomeScrollADHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHTfmdbHomeScrollADHelper.m; sourceTree = "<group>"; };
+		8996FC821E02406700952DF5 /* HomeCommonADInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCommonADInfo.h; sourceTree = "<group>"; };
+		8996FC831E02406700952DF5 /* HomeCommonADInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCommonADInfo.m; sourceTree = "<group>"; };
+		8996FC841E02406700952DF5 /* HomeRecommendInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeRecommendInfo.h; sourceTree = "<group>"; };
+		8996FC851E02406700952DF5 /* HomeRecommendInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeRecommendInfo.m; sourceTree = "<group>"; };
+		8996FC861E02406700952DF5 /* HomeScrollADInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScrollADInfo.h; sourceTree = "<group>"; };
+		8996FC871E02406700952DF5 /* HomeScrollADInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScrollADInfo.m; sourceTree = "<group>"; };
+		8996FC8F1E0242BA00952DF5 /* ZYHTfmdb_CommonADDealTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTfmdb_CommonADDealTool.h; sourceTree = "<group>"; };
+		8996FC901E0242BA00952DF5 /* ZYHTfmdb_CommonADDealTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHTfmdb_CommonADDealTool.m; sourceTree = "<group>"; };
+		8996FC951E0242FD00952DF5 /* ZYHTfmdb_CommonADHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTfmdb_CommonADHelper.h; sourceTree = "<group>"; };
+		8996FC961E0242FD00952DF5 /* ZYHTfmdb_CommonADHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHTfmdb_CommonADHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,9 +155,9 @@
 			children = (
 				89780E771E01A0AE00ABF3C6 /* 10.png */,
 				89780E761E0185F800ABF3C6 /* ILSingletom.h */,
-				89780E751E01826400ABF3C6 /* Model */,
-				89780E651E0172CA00ABF3C6 /* FMDBManager */,
 				89780E4F1E01727800ABF3C6 /* fmdb */,
+				8996FC751E02406700952DF5 /* FMDBManager */,
+				8996FC811E02406700952DF5 /* Model */,
 				89780E1F1E016BAA00ABF3C6 /* AppDelegate.h */,
 				89780E201E016BAA00ABF3C6 /* AppDelegate.m */,
 				89780E221E016BAA00ABF3C6 /* ViewController.h */,
@@ -218,32 +224,60 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		89780E651E0172CA00ABF3C6 /* FMDBManager */ = {
+		8996FC751E02406700952DF5 /* FMDBManager */ = {
 			isa = PBXGroup;
 			children = (
-				89780E661E01734800ABF3C6 /* ZYHTfmdbHomeRecommendInfoHelper.h */,
-				89780E671E01734800ABF3C6 /* ZYHTfmdbHomeRecommendInfoHelper.m */,
-				89780E691E01740F00ABF3C6 /* ZYHTfmdb_RecommendDealTool.h */,
-				89780E6A1E01740F00ABF3C6 /* ZYHTfmdb_RecommendDealTool.m */,
-				8996FC6F1E02373700952DF5 /* ZYHTfmdbHomeScrollADHelper.h */,
-				8996FC701E02373700952DF5 /* ZYHTfmdbHomeScrollADHelper.m */,
-				8996FC721E02374C00952DF5 /* ZYHTfmdbHomeScrollADDealTool.h */,
-				8996FC731E02374C00952DF5 /* ZYHTfmdbHomeScrollADDealTool.m */,
+				8996FC761E02406700952DF5 /* HomeCommonADDao */,
+				8996FC771E02406700952DF5 /* HomeRecommendDao */,
+				8996FC7C1E02406700952DF5 /* HomeScrollADDao */,
 			);
-			name = FMDBManager;
+			path = FMDBManager;
 			sourceTree = "<group>";
 		};
-		89780E751E01826400ABF3C6 /* Model */ = {
+		8996FC761E02406700952DF5 /* HomeCommonADDao */ = {
 			isa = PBXGroup;
 			children = (
-				89780E6C1E01769B00ABF3C6 /* HomeRecommendInfo.h */,
-				89780E6D1E01769B00ABF3C6 /* HomeRecommendInfo.m */,
-				89780E6F1E01824900ABF3C6 /* HomeScrollADInfo.h */,
-				89780E701E01824900ABF3C6 /* HomeScrollADInfo.m */,
-				89780E721E01826000ABF3C6 /* HomeCommonADInfo.h */,
-				89780E731E01826000ABF3C6 /* HomeCommonADInfo.m */,
+				8996FC8F1E0242BA00952DF5 /* ZYHTfmdb_CommonADDealTool.h */,
+				8996FC901E0242BA00952DF5 /* ZYHTfmdb_CommonADDealTool.m */,
+				8996FC951E0242FD00952DF5 /* ZYHTfmdb_CommonADHelper.h */,
+				8996FC961E0242FD00952DF5 /* ZYHTfmdb_CommonADHelper.m */,
 			);
-			name = Model;
+			path = HomeCommonADDao;
+			sourceTree = "<group>";
+		};
+		8996FC771E02406700952DF5 /* HomeRecommendDao */ = {
+			isa = PBXGroup;
+			children = (
+				8996FC781E02406700952DF5 /* ZYHTfmdb_RecommendDealTool.h */,
+				8996FC791E02406700952DF5 /* ZYHTfmdb_RecommendDealTool.m */,
+				8996FC7A1E02406700952DF5 /* ZYHTfmdbHomeRecommendInfoHelper.h */,
+				8996FC7B1E02406700952DF5 /* ZYHTfmdbHomeRecommendInfoHelper.m */,
+			);
+			path = HomeRecommendDao;
+			sourceTree = "<group>";
+		};
+		8996FC7C1E02406700952DF5 /* HomeScrollADDao */ = {
+			isa = PBXGroup;
+			children = (
+				8996FC7D1E02406700952DF5 /* ZYHTfmdb_HomeScrollADDealTool.h */,
+				8996FC7E1E02406700952DF5 /* ZYHTfmdb_HomeScrollADDealTool.m */,
+				8996FC7F1E02406700952DF5 /* ZYHTfmdbHomeScrollADHelper.h */,
+				8996FC801E02406700952DF5 /* ZYHTfmdbHomeScrollADHelper.m */,
+			);
+			path = HomeScrollADDao;
+			sourceTree = "<group>";
+		};
+		8996FC811E02406700952DF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8996FC821E02406700952DF5 /* HomeCommonADInfo.h */,
+				8996FC831E02406700952DF5 /* HomeCommonADInfo.m */,
+				8996FC841E02406700952DF5 /* HomeRecommendInfo.h */,
+				8996FC851E02406700952DF5 /* HomeRecommendInfo.m */,
+				8996FC861E02406700952DF5 /* HomeScrollADInfo.h */,
+				8996FC871E02406700952DF5 /* HomeScrollADInfo.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,21 +416,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8996FC8B1E02406700952DF5 /* ZYHTfmdbHomeScrollADHelper.m in Sources */,
+				8996FC881E02406700952DF5 /* ZYHTfmdb_RecommendDealTool.m in Sources */,
+				8996FC891E02406700952DF5 /* ZYHTfmdbHomeRecommendInfoHelper.m in Sources */,
+				8996FC8A1E02406700952DF5 /* ZYHTfmdb_HomeScrollADDealTool.m in Sources */,
+				8996FC8E1E02406700952DF5 /* HomeScrollADInfo.m in Sources */,
 				89780E241E016BAA00ABF3C6 /* ViewController.m in Sources */,
 				89780E5E1E01727800ABF3C6 /* FMDatabasePool.m in Sources */,
-				89780E6E1E01769B00ABF3C6 /* HomeRecommendInfo.m in Sources */,
-				8996FC741E02374C00952DF5 /* ZYHTfmdbHomeScrollADDealTool.m in Sources */,
+				8996FC8C1E02406700952DF5 /* HomeCommonADInfo.m in Sources */,
 				89780E211E016BAA00ABF3C6 /* AppDelegate.m in Sources */,
-				8996FC711E02373700952DF5 /* ZYHTfmdbHomeScrollADHelper.m in Sources */,
+				8996FC971E0242FD00952DF5 /* ZYHTfmdb_CommonADHelper.m in Sources */,
 				89780E5F1E01727800ABF3C6 /* FMDatabaseQueue.m in Sources */,
 				89780E1E1E016BAA00ABF3C6 /* main.m in Sources */,
-				89780E741E01826000ABF3C6 /* HomeCommonADInfo.m in Sources */,
-				89780E681E01734800ABF3C6 /* ZYHTfmdbHomeRecommendInfoHelper.m in Sources */,
 				89780E5C1E01727800ABF3C6 /* FMDatabase.m in Sources */,
-				89780E6B1E01740F00ABF3C6 /* ZYHTfmdb_RecommendDealTool.m in Sources */,
+				8996FC8D1E02406700952DF5 /* HomeRecommendInfo.m in Sources */,
 				89780E601E01727800ABF3C6 /* FMResultSet.m in Sources */,
-				89780E711E01824900ABF3C6 /* HomeScrollADInfo.m in Sources */,
 				89780E5D1E01727800ABF3C6 /* FMDatabaseAdditions.m in Sources */,
+				8996FC911E0242BA00952DF5 /* ZYHTfmdb_CommonADDealTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

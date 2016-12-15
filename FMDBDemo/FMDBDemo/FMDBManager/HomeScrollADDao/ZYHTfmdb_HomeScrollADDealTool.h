@@ -10,7 +10,7 @@
 #import "FMDB.h"
 #import "ILSingletom.h"
 
-@interface ZYHTfmdbHomeScrollADDealTool : NSObject
+@interface ZYHTfmdb_HomeScrollADDealTool : NSObject
 ILSingleton_H
 
 
