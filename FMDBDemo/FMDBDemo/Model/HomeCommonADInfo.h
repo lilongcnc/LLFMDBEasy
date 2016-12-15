@@ -7,10 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface HomeCommonADInfo : NSObject
 
 @property (nonatomic,copy) NSString *img_url;
 @property (nonatomic,strong) NSData *imgData;
+
++ (instancetype)homeCommonADInfoUIImage:(UIImage *)image img_URL:(NSString *)imgUrl;
+
 
 @end

@@ -10,4 +10,14 @@
 
 @implementation HomeCommonADInfo
 
++ (instancetype)homeCommonADInfoUIImage:(UIImage *)image img_URL:(NSString *)imgUrl{
+    
+    HomeCommonADInfo *info = [HomeCommonADInfo new];
+    
+    info.imgData = UIImagePNGRepresentation(image);
+    info.img_url =imgUrl;
+    
+    return info;
+}
+
 @end

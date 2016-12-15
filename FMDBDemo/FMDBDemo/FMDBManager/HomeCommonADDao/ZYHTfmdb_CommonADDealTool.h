@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FMDB.h"
+#import "ILSingletom.h"
 
 @interface ZYHTfmdb_CommonADDealTool : NSObject
+ILSingleton_H
+
+
+- (void)insertWithArray:(NSArray *)homeCommonADInfoArray;
+- (BOOL)delete:(NSString *)img_url;
+- (BOOL)deleteAll;
+- (NSArray *)query;
 
 @end

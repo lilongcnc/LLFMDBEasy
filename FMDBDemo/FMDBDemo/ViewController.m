@@ -24,7 +24,9 @@
 #import "ZYHTfmdbHomeScrollADHelper.h"
 #import "ZYHTfmdb_HomeScrollADDealTool.h"
 
-
+#import "HomeCommonADInfo.h"
+#import "ZYHTfmdb_CommonADDealTool.h"
+#import "ZYHTfmdb_CommonADHelper.h"
 
 @interface ViewController ()
 
@@ -101,10 +103,7 @@
     [[ZYHTfmdb_HomeScrollADDealTool sharedInstance] deleteAll];
 }
 
-- (IBAction)img_modify:(id)sender {
-    //    [[ZYHTfmdb_RecommendDealTool sharedInstance] modify];
-    
-}
+- (IBAction)img_modify:(id)sender {}
 
 - (IBAction)img_query:(id)sender {
     
@@ -118,5 +117,43 @@
 
 }
 
+
+
+#pragma mark ================ 图片部分2 ================
+
+- (IBAction)img_add2:(id)sender {
+    
+    BOOL result = [[ZYHTfmdb_CommonADHelper sharedInstance] createTable_HomeScrollAD];
+    if (result) {
+        NSLog(@"建表成功");
+        
+        HomeScrollADInfo *info1 = [HomeScrollADInfo homeScrollADInfoUIImage:[UIImage imageNamed:@"10.png"] img_URL:@"1111111111"];
+        
+        [[ZYHTfmdb_HomeScrollADDealTool sharedInstance] insertWithArray:@[info1]];
+        
+    }else{
+        NSLog(@"建表失败");
+    }
+    
+}
+
+- (IBAction)img_del2:(id)sender {
+    [[ZYHTfmdb_HomeScrollADDealTool sharedInstance] deleteAll];
+}
+
+- (IBAction)img_modify2:(id)sender {}
+
+
+- (IBAction)img_query2:(id)sender {
+    
+    NSArray *array = [[ZYHTfmdb_HomeScrollADDealTool sharedInstance] query];
+    for (HomeScrollADInfo *info in array) {
+        
+        NSLog(@"img_query: name:%@ age:%@ ",info.imgData,info.img_url);
+        UIImage *image = [UIImage imageWithData: info.imgData];
+        self.showImageView.image = image;
+    }
+    
+}
 
 @end

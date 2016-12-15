@@ -32,6 +32,7 @@
 		8996FC8E1E02406700952DF5 /* HomeScrollADInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC871E02406700952DF5 /* HomeScrollADInfo.m */; };
 		8996FC911E0242BA00952DF5 /* ZYHTfmdb_CommonADDealTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC901E0242BA00952DF5 /* ZYHTfmdb_CommonADDealTool.m */; };
 		8996FC971E0242FD00952DF5 /* ZYHTfmdb_CommonADHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC961E0242FD00952DF5 /* ZYHTfmdb_CommonADHelper.m */; };
+		8996FC9B1E0245E600952DF5 /* 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 8996FC9A1E0245E600952DF5 /* 21.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		8996FC901E0242BA00952DF5 /* ZYHTfmdb_CommonADDealTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHTfmdb_CommonADDealTool.m; sourceTree = "<group>"; };
 		8996FC951E0242FD00952DF5 /* ZYHTfmdb_CommonADHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTfmdb_CommonADHelper.h; sourceTree = "<group>"; };
 		8996FC961E0242FD00952DF5 /* ZYHTfmdb_CommonADHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHTfmdb_CommonADHelper.m; sourceTree = "<group>"; };
+		8996FC9A1E0245E600952DF5 /* 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 21.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				89780E771E01A0AE00ABF3C6 /* 10.png */,
+				8996FC9A1E0245E600952DF5 /* 21.png */,
 				89780E761E0185F800ABF3C6 /* ILSingletom.h */,
 				89780E4F1E01727800ABF3C6 /* fmdb */,
 				8996FC751E02406700952DF5 /* FMDBManager */,
@@ -389,6 +392,7 @@
 			files = (
 				89780E781E01A0AE00ABF3C6 /* 10.png in Resources */,
 				89780E611E01727800ABF3C6 /* Info.plist in Resources */,
+				8996FC9B1E0245E600952DF5 /* 21.png in Resources */,
 				89780E2C1E016BAA00ABF3C6 /* LaunchScreen.storyboard in Resources */,
 				89780E291E016BAA00ABF3C6 /* Assets.xcassets in Resources */,
 				89780E271E016BAA00ABF3C6 /* Main.storyboard in Resources */,
