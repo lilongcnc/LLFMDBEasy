@@ -28,6 +28,8 @@
 		89780E711E01824900ABF3C6 /* HomeScrollADInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 89780E701E01824900ABF3C6 /* HomeScrollADInfo.m */; };
 		89780E741E01826000ABF3C6 /* HomeCommonADInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 89780E731E01826000ABF3C6 /* HomeCommonADInfo.m */; };
 		89780E781E01A0AE00ABF3C6 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 89780E771E01A0AE00ABF3C6 /* 10.png */; };
+		8996FC711E02373700952DF5 /* ZYHTfmdbHomeScrollADHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC701E02373700952DF5 /* ZYHTfmdbHomeScrollADHelper.m */; };
+		8996FC741E02374C00952DF5 /* ZYHTfmdbHomeScrollADDealTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996FC731E02374C00952DF5 /* ZYHTfmdbHomeScrollADDealTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,10 @@
 		89780E731E01826000ABF3C6 /* HomeCommonADInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCommonADInfo.m; sourceTree = "<group>"; };
 		89780E761E0185F800ABF3C6 /* ILSingletom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSingletom.h; sourceTree = "<group>"; };
 		89780E771E01A0AE00ABF3C6 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		8996FC6F1E02373700952DF5 /* ZYHTfmdbHomeScrollADHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTfmdbHomeScrollADHelper.h; sourceTree = "<group>"; };
+		8996FC701E02373700952DF5 /* ZYHTfmdbHomeScrollADHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHTfmdbHomeScrollADHelper.m; sourceTree = "<group>"; };
+		8996FC721E02374C00952DF5 /* ZYHTfmdbHomeScrollADDealTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTfmdbHomeScrollADDealTool.h; sourceTree = "<group>"; };
+		8996FC731E02374C00952DF5 /* ZYHTfmdbHomeScrollADDealTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHTfmdbHomeScrollADDealTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +225,10 @@
 				89780E671E01734800ABF3C6 /* ZYHTfmdbHomeRecommendInfoHelper.m */,
 				89780E691E01740F00ABF3C6 /* ZYHTfmdb_RecommendDealTool.h */,
 				89780E6A1E01740F00ABF3C6 /* ZYHTfmdb_RecommendDealTool.m */,
+				8996FC6F1E02373700952DF5 /* ZYHTfmdbHomeScrollADHelper.h */,
+				8996FC701E02373700952DF5 /* ZYHTfmdbHomeScrollADHelper.m */,
+				8996FC721E02374C00952DF5 /* ZYHTfmdbHomeScrollADDealTool.h */,
+				8996FC731E02374C00952DF5 /* ZYHTfmdbHomeScrollADDealTool.m */,
 			);
 			name = FMDBManager;
 			sourceTree = "<group>";
@@ -375,7 +385,9 @@
 				89780E241E016BAA00ABF3C6 /* ViewController.m in Sources */,
 				89780E5E1E01727800ABF3C6 /* FMDatabasePool.m in Sources */,
 				89780E6E1E01769B00ABF3C6 /* HomeRecommendInfo.m in Sources */,
+				8996FC741E02374C00952DF5 /* ZYHTfmdbHomeScrollADDealTool.m in Sources */,
 				89780E211E016BAA00ABF3C6 /* AppDelegate.m in Sources */,
+				8996FC711E02373700952DF5 /* ZYHTfmdbHomeScrollADHelper.m in Sources */,
 				89780E5F1E01727800ABF3C6 /* FMDatabaseQueue.m in Sources */,
 				89780E1E1E016BAA00ABF3C6 /* main.m in Sources */,
 				89780E741E01826000ABF3C6 /* HomeCommonADInfo.m in Sources */,

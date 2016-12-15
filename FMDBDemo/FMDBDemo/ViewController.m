@@ -11,6 +11,12 @@
 #import "HomeRecommendInfo.h"
 #import "ZYHTfmdb_RecommendDealTool.h"
 
+#import "HomeScrollADInfo.h"
+#import "ZYHTfmdbHomeScrollADHelper.h"
+#import "ZYHTfmdbHomeScrollADDealTool.h"
+
+
+
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *showImageView;

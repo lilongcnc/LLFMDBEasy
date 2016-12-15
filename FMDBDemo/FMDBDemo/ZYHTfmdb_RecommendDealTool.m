@@ -18,20 +18,7 @@
 @end
 
 @implementation ZYHTfmdb_RecommendDealTool
-
 ILSingleton_M
-
-//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-//    [self insert];
-//    [self delete:@"jack-80"];
-//    [self deleteAll];
-//    [self select];
-//    [self update:@"jack-1000"];
-//}
-
-/* 声明数据库实例属性 */
-//@property (strong,nonatomic) FMDatabase *database;
-
 
 
 -(NSString *)dbPath{

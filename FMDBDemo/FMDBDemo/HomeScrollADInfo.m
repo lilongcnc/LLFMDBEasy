@@ -10,4 +10,14 @@
 
 @implementation HomeScrollADInfo
 
++ (instancetype)homeScrollADInfoUIImage:(UIImage *)image img_URL:(NSString *)imgUrl{
+    HomeScrollADInfo *info = [HomeScrollADInfo new];
+    
+    info.imgData = UIImagePNGRepresentation(image);
+    info.img_url =imgUrl;
+    
+    return info;
+}
+
+
 @end
