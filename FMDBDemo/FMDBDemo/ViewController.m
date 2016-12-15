@@ -26,7 +26,7 @@
 
 #import "HomeCommonADInfo.h"
 #import "ZYHTfmdb_CommonADDealTool.h"
-#import "ZYHTfmdb_CommonADHelper.h"
+#import "ZYHTfmdbCommonADHelper.h"
 
 @interface ViewController ()
 
@@ -107,6 +107,9 @@
 
 - (IBAction)img_query:(id)sender {
     
+    self.showImageView.image = nil;
+
+    
     NSArray *array = [[ZYHTfmdb_HomeScrollADDealTool sharedInstance] query];
     for (HomeScrollADInfo *info in array) {
         
@@ -123,16 +126,13 @@
 
 - (IBAction)img_add2:(id)sender {
     
-    BOOL result = [[ZYHTfmdb_CommonADHelper sharedInstance] createTable_HomeScrollAD];
+    BOOL result = [[ZYHTfmdbCommonADHelper sharedInstance] createTable_HomeCommonAD];
     if (result) {
-        NSLog(@"建表成功");
+        HomeCommonADInfo *info1 = [HomeCommonADInfo homeCommonADInfoUIImage:[UIImage imageNamed:@"21.png"] img_URL:@"22222222"];
         
-        HomeScrollADInfo *info1 = [HomeScrollADInfo homeScrollADInfoUIImage:[UIImage imageNamed:@"10.png"] img_URL:@"1111111111"];
-        
-        [[ZYHTfmdb_HomeScrollADDealTool sharedInstance] insertWithArray:@[info1]];
+        [[ZYHTfmdb_CommonADDealTool sharedInstance] insertWithArray:@[info1]];
         
     }else{
-        NSLog(@"建表失败");
     }
     
 }
@@ -146,10 +146,13 @@
 
 - (IBAction)img_query2:(id)sender {
     
-    NSArray *array = [[ZYHTfmdb_HomeScrollADDealTool sharedInstance] query];
-    for (HomeScrollADInfo *info in array) {
+    self.showImageView.image = nil;
+    
+    NSArray *array = [[ZYHTfmdb_CommonADDealTool sharedInstance] query];
+
+    for (HomeCommonADInfo *info in array) {
         
-        NSLog(@"img_query: name:%@ age:%@ ",info.imgData,info.img_url);
+        NSLog(@"img_query2: name:%@ age:%@ ",info.imgData,info.img_url);
         UIImage *image = [UIImage imageWithData: info.imgData];
         self.showImageView.image = image;
     }

@@ -109,7 +109,7 @@ ILSingleton_M
             //从数据库获取数据
             NSString *img_url = [resultSet stringForColumn:@"img_url"];
             NSData *imgData = [resultSet dataForColumn:@"imgData"];
-            NSLog(@"--img_url:%@---imgData:%@",img_url,imgData);
+            NSLog(@"--img_url:%@---imgData:%@",img_url,@"");
             
             //图片处理
 //            [imgData writeToFile:@"/tmp/compass.icns" atomically:NO];

@@ -54,11 +54,11 @@ static NSString * const isCreateTable_HomeRecommendDBFlag = @"isCreateTable_Home
             [database close];
             
             if (result) {
-                //                NSLog(@"建表成功");
+                NSLog(@"建表成功");
                 [dbDserDefault setBool:YES forKey:isCreateTable_HomeRecommendDBFlag]; //标识第一次创建该表成功
                 return 1;
             }else{
-                //                NSLog(@"建表失败");
+                NSLog(@"建表失败");
                 return 0;
             }
             

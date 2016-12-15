@@ -6,11 +6,11 @@
 //  Copyright © 2016年 李龙. All rights reserved.
 //
 
-#import "ZYHTfmdb_CommonADHelper.h"
+#import "ZYHTfmdbCommonADHelper.h"
 #import "FMDB.h"
 
 
-@implementation ZYHTfmdb_CommonADHelper
+@implementation ZYHTfmdbCommonADHelper
 
 ILSingleton_M
 
@@ -23,9 +23,9 @@ ILSingleton_M
     return dbPath;
 }
 
-static NSString * const isCreateTable_HomeRecommendDBFlag = @"isCreateTable_HomeCommonADDBFlag";
 
-- (BOOL)createTable_HomeScrollAD{
+static NSString * const isCreateTable_HomeRecommendDBFlag = @"isCreateTable_HomeCommonADDBFlag";
+- (BOOL)createTable_HomeCommonAD{
     NSUserDefaults *dbDserDefault = [NSUserDefaults standardUserDefaults];
     
     BOOL isCreated = [dbDserDefault boolForKey:isCreateTable_HomeRecommendDBFlag];

@@ -18,12 +18,12 @@
 #endif
 
 
-@interface ZYHTfmdb_CommonADHelper : NSObject
+@interface ZYHTfmdbCommonADHelper : NSObject
 ILSingleton_H
 
 
 - (NSString *)getHomeCommonAD_Path;
 
-- (BOOL)createTable_HomeScrollAD;
+- (BOOL)createTable_HomeCommonAD;
 
 @end

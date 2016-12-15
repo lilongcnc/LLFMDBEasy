@@ -7,7 +7,7 @@
 //
 
 #import "ZYHTfmdb_CommonADDealTool.h"
-#import "ZYHTfmdb_CommonADHelper.h"
+#import "ZYHTfmdbCommonADHelper.h"
 #import "HomeCommonADInfo.h"
 
 
@@ -22,7 +22,7 @@ ILSingleton_M
 
 
 -(NSString *)dbPath{
-    return [ZYHTfmdb_CommonADHelper sharedInstance].getHomeCommonAD_Path;
+    return [ZYHTfmdbCommonADHelper sharedInstance].getHomeCommonAD_Path;
 }
 
 #pragma mark ------------ 插入 ------------
@@ -109,7 +109,7 @@ ILSingleton_M
             //从数据库获取数据
             NSString *img_url = [resultSet stringForColumn:@"img_url"];
             NSData *imgData = [resultSet dataForColumn:@"imgData"];
-            NSLog(@"--img_url:%@---imgData:%@",img_url,imgData);
+            NSLog(@"--img_url:%@---imgData:%@",img_url,@"");
             
             //赋值模型
             UIImage *image = [UIImage imageWithData: imgData];
